@@ -29,11 +29,3 @@ jobs:
         run: terraform init
 
       - name: Terraform Destroy
-      - uses: actions/checkout@v4
-
-      - uses: hashicorp/setup-terraform@v3
-
-      - name: Terraform Init
-        run: terraform init
-
-      - name: Terraform Destroy
